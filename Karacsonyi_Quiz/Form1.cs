@@ -48,17 +48,22 @@ namespace Karacsonyi_Quiz
 
 
 
-                MessageBox.Show(
-                    "A Quiz végéhez értünk!" + Environment.NewLine +
-                    "A helyes válaszaitok:" + score + Environment.NewLine +
-                    "Ez " + percentage + "% értetek el" + Environment.NewLine +
+                //MessageBox.Show(
+                //    "A Quiz végéhez értünk!" + Environment.NewLine +
+                //    "A helyes válaszaitok:" + score + Environment.NewLine +
+                //    "Ez " + percentage + "% értetek el" + Environment.NewLine +
 
-                    score
+                //    score
 
-                    );
-                Application.Exit();
+                //    ,"Eredmény");
+
+                
 
 
+
+                //Application.Exit();
+                panel1.Visible = true;
+                label1.Text = score.ToString();
 
             }
 
