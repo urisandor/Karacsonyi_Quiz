@@ -51,14 +51,14 @@ namespace Karacsonyi_Quiz
                 MessageBox.Show(
                     "A Quiz végéhez értünk!" + Environment.NewLine +
                     "A helyes válaszaitok:" + score + Environment.NewLine +
-                    "Ez " + percentage +  "% értetek el" + E
+                    "Ez " + percentage + "% értetek el" + Environment.NewLine +
+
+
+                    score
 
 
 
-
-
-
-                    );
+                    ) ;
 
 
 
