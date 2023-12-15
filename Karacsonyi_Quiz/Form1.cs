@@ -19,7 +19,7 @@ namespace Karacsonyi_Quiz
         int QuestionNumber = 1;
         int score;
         int percentage;
-        int totalQuestion;
+        int totalQuestion = 4;
         
         
         public Form1()
@@ -53,13 +53,10 @@ namespace Karacsonyi_Quiz
                     "A helyes válaszaitok:" + score + Environment.NewLine +
                     "Ez " + percentage + "% értetek el" + Environment.NewLine +
 
-
                     score
 
-
-
-                    ) ;
-
+                    );
+                Application.Exit();
 
 
 
@@ -119,12 +116,12 @@ namespace Karacsonyi_Quiz
 
                     lblQuestions.Text = "4. Hany renszarvas huzza a telapo szanjat Rudolfal egyutt";
 
-                    button1.Text = "";
-                    button2.Text = "";
-                    button3.Text = "";
-                    button4.Text = "";
+                    button1.Text = "5";
+                    button2.Text = "6";
+                    button3.Text = "9";
+                    button4.Text = "10";
 
-                    correctAnswer = 2;
+                    correctAnswer = 3;
 
                     break;
             }
