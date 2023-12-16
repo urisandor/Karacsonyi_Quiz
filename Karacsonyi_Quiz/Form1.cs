@@ -19,7 +19,7 @@ namespace Karacsonyi_Quiz
         int QuestionNumber = 1;
         int score;
         int percentage;
-        int totalQuestion = 4;
+        int totalQuestion = 10;
         
         
         public Form1()
@@ -63,7 +63,9 @@ namespace Karacsonyi_Quiz
 
                 //Application.Exit();
                 panel1.Visible = true;
-                label1.Text = score.ToString();
+                label2.Text = score.ToString()+ " Helyes választ adtatok." 
+                   +"\n" + percentage + "% ra sikerült megoldani a feladatot." 
+                   + "\n" + totalQuestion + "/" + score + " Lett a pontszámotok.";
 
             }
 
@@ -80,7 +82,7 @@ namespace Karacsonyi_Quiz
                 case 1:
                     pictureBox1.Image = Properties.Resources._3HWIAZ;
 
-                    lblQuestions.Text = "Melyik este jon a Jezuska?";
+                    lblQuestions.Text = "1.Melyik este jön a Jézuska?";
 
                     button1.Text = "December 25.";
                     button2.Text = "December 24.";
@@ -106,11 +108,11 @@ namespace Karacsonyi_Quiz
                 case 3:
                     pictureBox1.Image = Properties.Resources._3HWIAZ;
 
-                    lblQuestions.Text = "3.Ki lopta el egyszer a Karacsonyt?";
+                    lblQuestions.Text = "3.Ki lopta el egyszer a Karácsonyt?";
 
-                    button1.Text = "Az ordog";
+                    button1.Text = "Az ördög";
                     button2.Text = "A Krampusz";
-                    button3.Text = "Egy gonosz mano";
+                    button3.Text = "Egy gonosz manó";
                     button4.Text = "A Grincs";
 
                     correctAnswer = 4;
@@ -119,7 +121,7 @@ namespace Karacsonyi_Quiz
                 case 4:
                     pictureBox1.Image = Properties.Resources._3HWIAZ;
 
-                    lblQuestions.Text = "4. Hany renszarvas huzza a telapo szanjat Rudolfal egyutt";
+                    lblQuestions.Text = "4. Hány rénszarvas húzza a télapó szánját Rudolfal együtt";
 
                     button1.Text = "5";
                     button2.Text = "6";
@@ -127,6 +129,84 @@ namespace Karacsonyi_Quiz
                     button4.Text = "10";
 
                     correctAnswer = 3;
+
+                    break;
+                case 5:
+                    pictureBox1.Image = Properties.Resources._3HWIAZ;
+
+                    lblQuestions.Text = "5.Melyik városhoz kötődik a karácsony ünnepe ";
+
+                    button1.Text = "Názáret";
+                    button2.Text = "Palesztína";
+                    button3.Text = "Jeruzsálem";
+                    button4.Text = "Betlehem";
+
+                    correctAnswer = 4;
+
+                    break;
+                case 6:
+                    pictureBox1.Image = Properties.Resources._3HWIAZ;
+
+                    lblQuestions.Text = "6.A felsoroltak közül melyik ajándékot NEM vitték a napkeleti bölcsek az újszülött Jézusnak?";
+
+                    button1.Text = "arany";
+                    button2.Text = "tömjén";
+                    button3.Text = "mirha";
+                    button4.Text = "ezüst";
+
+                    correctAnswer = 4;
+
+                    break;
+                case 7:
+                    pictureBox1.Image = Properties.Resources._3HWIAZ;
+
+                    lblQuestions.Text = "7.Melyik név nem tartozik Mikulás szarvasaihoz?";
+
+                    button1.Text = "Táltos";
+                    button2.Text = "Aggancs";
+                    button3.Text = "Táncos";
+                    button4.Text = "Üstökös";
+
+                    correctAnswer = 2;
+
+                    break;
+                case 8:
+                    pictureBox1.Image = Properties.Resources._3HWIAZ;
+
+                    lblQuestions.Text = "8.Melyik vállalat tette népszerűvé a Mikulást Amerikában?";
+
+                    button1.Text = "CoCa-Cola";
+                    button2.Text = "Pepsi";
+                    button3.Text = "Dr Pepper";
+                    button4.Text = "Prime";
+
+                    correctAnswer = 1;
+
+                    break;
+                case 9:
+                    pictureBox1.Image = Properties.Resources._3HWIAZ;
+
+                    lblQuestions.Text = "9.Hány szellem van a Karácsonyi énekben?";
+
+                    button1.Text = "12";
+                    button2.Text = "8";
+                    button3.Text = "4";
+                    button4.Text = "14";
+
+                    correctAnswer = 3;
+
+                    break;
+                case 10:
+                    pictureBox1.Image = Properties.Resources._3HWIAZ;
+
+                    lblQuestions.Text = "10.Karácsony másodnapja melyik szentnek a napja?";
+
+                    button1.Text = "Szent Istán";
+                    button2.Text = "Szent Dominik";
+                    button3.Text = "Szent Mária";
+                    button4.Text = "Szent László";
+
+                    correctAnswer = 1;
 
                     break;
             }
