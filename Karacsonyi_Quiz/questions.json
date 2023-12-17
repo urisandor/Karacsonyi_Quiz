@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Melyik este jön a Jézuska?",
+    "answers": [
+      "December 25.",
+      "December 24.",
+      "December 26.",
+      "December 27."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Mennyi adventi gyertyát kell meggyújtani az ünnep alatt?",
+    "answers": [
+      "3",
+      "4",
+      "7",
+      "9"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Ki lopta el egyszer a Karácsonyt?",
+    "answers": [
+      "Az ördög",
+      "A Krampusz",
+      "Egy gonosz manó",
+      "A Grincs"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Hány rénszarvas húzza a télapó szánját Rudolfal együtt",
+    "answers": [
+      "5",
+      "6",
+      "9",
+      "10"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Melyik városhoz kötődik a karácsony ünnepe ",
+    "answers": [
+      "Názáret",
+      "Palesztína",
+      "Jeruzsálem",
+      "Betlehem"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "question": "A felsoroltak közül melyik ajándékot NEM vitték a napkeleti bölcsek az újszülött Jézusnak?",
+    "answers": [
+      "arany",
+      "tömjén",
+      "mirha",
+      "ezüst"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Melyik név nem tartozik Mikulás szarvasaihoz?",
+    "answers": [
+      "Táltos",
+      "Aggancs",
+      "Táncos",
+      "Üstökös"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Melyik vállalat tette népszerűvé a Mikulást Amerikában?",
+    "answers": [
+      "CoCa-Cola",
+      "Pepsi",
+      "Dr Pepper",
+      "Prime"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Hány szellem van a Karácsonyi énekben?",
+    "answers": [
+      "12",
+      "8",
+      "4",
+      "14"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Karácsony második napja melyik szentnek a napja?",
+    "answers": [
+      "Szent Istán",
+      "Szent Dominik",
+      "Szent Mária",
+      "Szent László"
+    ],
+    "correctAnswer": 1
+  }
+]
