@@ -13,16 +13,15 @@ namespace Karacsonyi_Quiz
 
     private int _actualQuestionIndex = 0;
     private int _score;
-
     private int _correctAnswer;
 
     public Form1()
     {
-      string filePath = Path.Combine(
+      var filePath = Path.Combine(
         AppDomain.CurrentDomain.BaseDirectory,
         "questions.json");
 
-      string jsonString = File.ReadAllText(filePath);
+      var jsonString = File.ReadAllText(filePath);
       _questions = JsonConvert.DeserializeObject<QuestionObject[]>(jsonString);
       _totalQuestion = _questions.Length;
 
