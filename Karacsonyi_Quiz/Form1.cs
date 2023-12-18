@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Karacsonyi_Quiz
@@ -47,21 +40,6 @@ namespace Karacsonyi_Quiz
                 percentage = (int)Math.Round((double)(score * 100) / totalQuestion);
 
 
-
-                //MessageBox.Show(
-                //    "A Quiz végéhez értünk!" + Environment.NewLine +
-                //    "A helyes válaszaitok:" + score + Environment.NewLine +
-                //    "Ez " + percentage + "% értetek el" + Environment.NewLine +
-
-                //    score
-
-                //    ,"Eredmény");
-
-                
-
-
-
-                //Application.Exit();
                 panel1.Visible = true;
                 label2.Text = score.ToString()+ " Helyes választ adtatok." 
                    +"\n" + percentage + "% ra sikerült megoldani a Quizt." 
