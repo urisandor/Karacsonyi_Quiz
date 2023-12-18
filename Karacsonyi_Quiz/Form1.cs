@@ -58,7 +58,7 @@ namespace Karacsonyi_Quiz
             switch(qnum)
             {
                 case 1:
-                    pictureBox1.Image = Properties.Resources._3HWIAZ;
+                    pictureBox1.Image = Properties.Resources._4k_christmas_wallpaper_1;
 
                     lblQuestions.Text = "1.Melyik este jön a Jézuska?";
 
@@ -71,7 +71,7 @@ namespace Karacsonyi_Quiz
 
                     break;
                 case 2:
-                    pictureBox1.Image = Properties.Resources._3HWIAZ;
+                    pictureBox1.Image = Properties.Resources._4k_christmas_wallpaper_1;
 
                     lblQuestions.Text = "2.Mennyi adventi gyertyát kell meggyújtani az ünnep alatt?";
 
@@ -84,7 +84,7 @@ namespace Karacsonyi_Quiz
 
                     break;
                 case 3:
-                    pictureBox1.Image = Properties.Resources._3HWIAZ;
+                    pictureBox1.Image = Properties.Resources._4k_christmas_wallpaper_1;
 
                     lblQuestions.Text = "3.Ki lopta el egyszer a Karácsonyt?";
 
@@ -97,7 +97,7 @@ namespace Karacsonyi_Quiz
 
                     break;
                 case 4:
-                    pictureBox1.Image = Properties.Resources._3HWIAZ;
+                    pictureBox1.Image = Properties.Resources._4k_christmas_wallpaper_1;
 
                     lblQuestions.Text = "4. Hány rénszarvas húzza a télapó szánját Rudolfal együtt";
 
@@ -110,7 +110,7 @@ namespace Karacsonyi_Quiz
 
                     break;
                 case 5:
-                    pictureBox1.Image = Properties.Resources._3HWIAZ;
+                    pictureBox1.Image = Properties.Resources._4k_christmas_wallpaper_1;
 
                     lblQuestions.Text = "5.Melyik városhoz kötődik a karácsony ünnepe ";
 
@@ -191,6 +191,11 @@ namespace Karacsonyi_Quiz
 
 
 
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }
