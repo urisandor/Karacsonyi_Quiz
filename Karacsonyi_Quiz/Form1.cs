@@ -42,8 +42,9 @@ namespace Karacsonyi_Quiz
 
                 panel1.Visible = true;
                 label2.Text = score.ToString()+ " Helyes választ adtatok." 
-                   +"\n" + percentage + "% ra sikerült megoldani a Quizt." 
-                   + "\n" + totalQuestion + "/" + score + " Lett a pontszámotok.";
+                   + "\n" + percentage + "% ra sikerült megoldani a Quizt." 
+                   + "\n" + totalQuestion + "/" + score + " Lett a pontszámotok."
+                   + "\n" + "Boldog Karácsonyt kívánok nektek!>3";
 
             }
 
