@@ -180,7 +180,7 @@ namespace Karacsonyi_Quiz
 
                     lblQuestions.Text = "10.Karácsony másodnapja melyik szentnek a napja?";
 
-                    button1.Text = "Szent Istán";
+                    button1.Text = "Szent István";
                     button2.Text = "Szent Dominik";
                     button3.Text = "Szent Mária";
                     button4.Text = "Szent László";
